@@ -9,6 +9,27 @@ header {
 
 }
 
+@media (min-width: 480px) {
+    header {
+        background: #002516 linear-gradient(0deg, #002516 0%, #02fc6a 100%);
+    
+    }
+}
+
+@media (min-width:768px) {
+    header {
+    background: #251400 linear-gradient(0deg, #251400 0%, #f5e589 100%);
+
+    }
+}
+
+@media (min-width:1024px) {
+    header {
+        background: #570130 linear-gradient(0deg, #570130 0%, #e785d7 100%);
+    
+        }
+}
+
 header h1 {
     margin: 0;
     padding: 110px 0;
